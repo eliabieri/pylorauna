@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pylorauna"
+version = "0.1.0"
+description = "API Wrapper for the Lorauna API. Lorauna refers to the 'Sauna Lorrainebad' in Bern, CH"
+authors = ["Elia Bieri <contact@eliabieri.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+gql = {extras = ["all"], version = "^3.4.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
